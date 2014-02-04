@@ -1,8 +1,8 @@
 --------------------------------------------------------------------------------
 -- Company: 
--- Engineer:
+-- Engineer: Sean Bapty
 --
--- Create Date:   21:12:36 02/03/2014
+-- Create Date:   22:36:10 02/03/2014
 -- Design Name:   
 -- Module Name:   C:/Users/C16Sean.Bapty/Documents/Academics 1.0/Spring 2014/ECE 281/CE2/Decoder_Structural_testbench.vhd
 -- Project Name:  CE2
@@ -80,21 +80,12 @@ BEGIN
           Y3 => Y3
         );
 
-   -- Clock process definitions
-   --<clock>_process :process
---   begin
---		<clock> <= '0';
---		wait for <clock>_period/2;
---		<clock> <= '1';
---		wait for <clock>_period/2;
---   end process;
- 
+
 
    -- Stimulus process
    stim_proc: process
    begin		
-      -- First line of truth table
-		I0 <= '0';
+      	I0 <= '0';
 		I1 <= '0';
 		EN <= '0';
 		--assert F='1' report "000 Fail" severity note;
@@ -132,6 +123,7 @@ BEGIN
 		EN <= '1';
 		wait for 100 ns;	
       wait;
+      
    end process;
 
 END;
