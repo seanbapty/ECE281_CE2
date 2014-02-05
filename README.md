@@ -5,7 +5,7 @@ ECE281_CE2
 
 ## Introduction
 
-The purpose of this exercise was to create a decoder using behavioral and structural VHDL. 
+The purpose of this exercise was to create a decoder using behavioral and structural VHDL. According to Digital Design and Computer Architecture by David and Sarah Harris, "a decoder has N inputs and 2^N outputs. It asserts exactly one of its outputs depending on the imput combination" (86). In other words, this decoder took two input values, and outputted one of four choices depending on the input.
 
 ## Structural Design
 
