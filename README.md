@@ -5,7 +5,7 @@ ECE281_CE2
 
 ## Introduction
 
-The purpose of this exercise was to create a decoder using behavioral and structural VHDL. 
+The purpose of this exercise was to create a decoder using behavioral and structural VHDL. According to Digital Design and Computer Architecture by David and Sarah Harris, "a decoder has N inputs and 2^N outputs. It asserts exactly one of its outputs depending on the imput combination" (86). In other words, this decoder took two input values, and outputted one of four choices depending on the input.
 
 ## Structural Design
 
@@ -21,9 +21,12 @@ Using a testbench of all possible inputs, the output of FIGURE 1 was obtained. T
 
 ## Behavioral Design
 
-In the behavioral implementation, the VHDL code described the behavior of the circuit. In contrast to the structural design, no virtual parts were created, rather the code described how the output based on different inputs. As in the structural implementation, a testbench was used to check the output of the design.
+In the behavioral implementation, the VHDL code described the behavior of the circuit. In contrast to the structural design, no virtual parts were created, rather the code described how the output should behave based on different inputs. As in the structural implementation, a testbench was used to check the output of the design.
 
 ![alt tag](https://raw2.github.com/seanbapty/ECE281_CE2/master/BehavioralTestbenchOutput.JPG)
 #### Figure 3
 
 The output of the behavioral design can be cross-referenced with the structural design and confirmed that they perform the same operation.
+
+## Documentation
+As before mentioned I referenced Digital Design and Computer Achitecture. Additionally, Daniel Eichman explained how to better format pictures in the readme.
