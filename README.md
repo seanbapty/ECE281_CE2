@@ -20,6 +20,8 @@ Using a testbench of all possible inputs, the output of FIGURE 2 was obtained. T
 #### Figure 2
 
 
+
+
 ![alt tag](https://raw2.github.com/seanbapty/ECE281_CE2/master/truthtable.JPG)
 #### Figure 3
 
